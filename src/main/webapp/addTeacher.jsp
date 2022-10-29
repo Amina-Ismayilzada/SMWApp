@@ -12,6 +12,8 @@
   <h1 style="text-align: center">ADD NEW TEACHER</h1>
 
   <form  action="/WebApps/teacher-servlet?action=addTeacher" method="POST">
+
+
     <div class="form-group">
       <label for="formGroupName">Name</label>
       <input name="name" type="text" class="form-control" id="formGroupName" placeholder="Teacher Name">
